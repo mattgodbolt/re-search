@@ -189,7 +189,7 @@ int parse_fish_history() {
 
 	fclose(fp);
 
-	debug("%d entries loaded", history_size);
+	debug("%lu entries loaded", history_size);
 	return 0;
 }
 
